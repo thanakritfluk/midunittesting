@@ -41,3 +41,4 @@ def find(a, char):
     for i in range(len(a)):
         if a[i] == char:
             return i
+    return 0
